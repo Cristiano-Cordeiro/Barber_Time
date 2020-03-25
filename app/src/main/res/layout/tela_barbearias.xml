@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text_titulo_barbearias"
+        android:layout_width="117dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="147dp"
+        android:layout_marginTop="51dp"
+        android:layout_marginEnd="147dp"
+        android:layout_marginBottom="643dp"
+        android:text="@string/barbearias"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <SearchView
+        android:id="@+id/pesquisa_barbearias"
+        android:layout_width="320dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="576dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_titulo_barbearias" />
+
+    <ImageView
+        android:id="@+id/imagem_barbearia1_barbearias"
+        android:layout_width="138dp"
+        android:layout_height="116dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="257dp"
+        android:layout_marginBottom="22dp"
+        app:layout_constraintBottom_toTopOf="@+id/imagem_barbearia2_barbearias"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pesquisa_barbearias"
+        app:srcCompat="@android:drawable/ic_dialog_info"
+        android:contentDescription="@string/todo" />
+
+    <ImageView
+        android:id="@+id/imagem_barbearia4_barbearias"
+        android:layout_width="138dp"
+        android:layout_height="116dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="257dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imagem_barbearia3_barbearias"
+        app:srcCompat="@android:drawable/ic_dialog_info"
+        android:contentDescription="@string/todo" />
+
+    <ImageView
+        android:id="@+id/imagem_barbearia2_barbearias"
+        android:layout_width="138dp"
+        android:layout_height="116dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="257dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imagem_barbearia1_barbearias"
+        app:srcCompat="@android:drawable/ic_dialog_info"
+        android:contentDescription="@string/todo" />
+
+    <ImageView
+        android:id="@+id/imagem_barbearia3_barbearias"
+        android:layout_width="138dp"
+        android:layout_height="116dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="257dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imagem_barbearia2_barbearias"
+        app:srcCompat="@android:drawable/ic_dialog_info"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:id="@+id/text_infobarbearia1_barbearias"
+        android:layout_width="236dp"
+        android:layout_height="111dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="9dp"
+        android:contentDescription="@string/aaaaaaaaaaaaaaa"
+        android:text="@string/barbearia_1_aberto_9_00_18_00_5_km_media_do_pre_o"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imagem_barbearia1_barbearias"
+        app:layout_constraintTop_toBottomOf="@+id/pesquisa_barbearias" />
+
+    <TextView
+        android:id="@+id/text_infobarbearia4_barbearias"
+        android:layout_width="234dp"
+        android:layout_height="113dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="19dp"
+        android:text="@string/textview"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imagem_barbearia4_barbearias"
+        tools:text="@string/barbearia_1_aberto_9_00_18_00_5_km_media_do_pre_o" />
+
+    <TextView
+        android:id="@+id/text_infobarbearia3_barbearias"
+        android:layout_width="234dp"
+        android:layout_height="115dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="25dp"
+        android:text="@string/barbearia_1_aberto_9_00_18_00_5_km_media_do_pre_o"
+        app:layout_constraintBottom_toTopOf="@+id/text_infobarbearia4_barbearias"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imagem_barbearia3_barbearias" />
+
+    <TextView
+        android:id="@+id/text_infobarbearia2_barbearias"
+        android:layout_width="230dp"
+        android:layout_height="115dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="22dp"
+        android:text="@string/barbearia_1_aberto_9_00_18_00_5_km_media_do_pre_o"
+        app:layout_constraintBottom_toTopOf="@+id/text_infobarbearia3_barbearias"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imagem_barbearia2_barbearias" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

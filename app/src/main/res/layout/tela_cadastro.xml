@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text_titulo_cadastro"
+        android:layout_width="107dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="111dp"
+        android:layout_marginEnd="152dp"
+        android:layout_marginBottom="27dp"
+        android:text="@string/cadastrar"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toTopOf="@+id/field_nome_cadastro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/field_nome_cadastro"
+        android:layout_width="213dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="102dp"
+        android:ems="10"
+        android:hint="@string/nome"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/field_email_cadastro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_titulo_cadastro"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/field_email_cadastro"
+        android:layout_width="213dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="102dp"
+        android:layout_marginBottom="35dp"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toTopOf="@+id/field_telefone_cadastro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/field_nome_cadastro"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/field_telefone_cadastro"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:layout_marginEnd="102dp"
+        android:layout_marginBottom="36dp"
+        android:ems="10"
+        android:hint="@string/telefone"
+        android:inputType="phone"
+        app:layout_constraintBottom_toTopOf="@+id/field_senha_cadastro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/field_senha_cadastro"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="98dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="33dp"
+        android:ems="10"
+        android:hint="@string/senha"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/field_confirmasenha_cadastro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/field_confirmasenha_cadastro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:layout_marginEnd="102dp"
+        android:layout_marginBottom="200dp"
+        android:ems="10"
+        android:hint="@string/confirmar_senha"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/btn_finaliza_cadastro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="121dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="121dp"
+        android:layout_marginBottom="115dp"
+        android:text="@string/finalizar_cadastro"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/field_confirmasenha_cadastro" />
+</androidx.constraintlayout.widget.ConstraintLayout>

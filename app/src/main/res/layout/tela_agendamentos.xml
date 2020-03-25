@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text_titulo_agendamentos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="130dp"
+        android:text="@string/agendamentos"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imagem_barbearia_agendamentos"
+        android:layout_width="171dp"
+        android:layout_height="266dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="229dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/field_informaçoesBarbearia_agendamentos"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_titulo_agendamentos"
+        app:srcCompat="@android:drawable/ic_menu_view"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:id="@+id/field_informaçoesBarbearia_agendamentos"
+        android:layout_width="192dp"
+        android:layout_height="263dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="133dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="229dp"
+        android:text="@string/agendamento_feito_na_barbeari_1_horario_14_00"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imagem_barbearia_agendamentos"
+        app:layout_constraintTop_toBottomOf="@+id/text_titulo_agendamentos" />
+</androidx.constraintlayout.widget.ConstraintLayout>

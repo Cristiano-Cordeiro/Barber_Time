@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Barber_Time</string>
+    <string name="logar">Logar</string>
+    <string name="senha">Senha</string>
+    <string name="email">Email</string>
+    <string name="barber_time">BARBER TIME!</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="email">Email</string>
+    <string name="nome">Nome</string>
+    <string name="telefone">Telefone</string>
+    <string name="senha">Senha</string>
+    <string name="confirmar_senha">Confirmar Senha</string>
+    <string name="finalizar_cadastro">Finalizar cadastro</string>
+    <string name="aaaaaaaaaaaaaaa">aaaaaaaaaaaaaaa</string>
+    <string name="barbearias">Barbearias</string>
+    <string name="barbearia_2_aberto_9_00_18_00_5_km_media_do_pre_o">Barbearia 2 Aberto 9:00 – 18:00 5 KM Media do preço: $$$</string>
+    <string name="barbearia_3_aberto_9_00_18_00_5_km_media_do_pre_o">Barbearia 3 Aberto 9:00 – 18:00 5 KM Media do preço: $$$</string>
+    <string name="barbearia_4_aberto_9_00_18_00_5_km_media_do_pre_o">Barbearia 4 Aberto 9:00 – 18:00 5 KM Media do preço: $$$</string>
+    <string name="barbearia_1_aberto_9_00_18_00_5_km_media_do_pre_o">Barbearia 1 Aberto 9:00 – 18:00 5 KM Media do preço: $$$</string>
+    <string name="todo">TODO</string>
+    <string name="todo">TODO</string>
+    <string name="todo">TODO</string>
+    <string name="todo">TODO</string>
+    <string name="textview">TextView</string>
+    <string name="agendamentos">Agendamentos</string>
+    <string name="agendamento_feito_na_barbeari_1_horario_14_00">Agendamento feito na barbeari 1 Horario:14:00</string>
+    <string name="todo">TODO</string>
+    <string name="senha">Senha</string>
+    <string name="e_mail">E-mail</string>
+</resources>
